@@ -1,0 +1,14 @@
+.textfield {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:darkslateblue;
+    padding: 20px;
+    font-weight: 600;
+}
+p {
+   color: black;
+}
+@media screen and (max-width: 480px) {
+    .textfield {
+        font-size: 14px;
+    }
+}

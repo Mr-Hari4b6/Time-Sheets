@@ -1,0 +1,18 @@
+.container_board {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height:100vh;  
+    background-color: khaki;
+    // left: '50%';
+    // top: '50%';
+    // transform: 'translate(-50%, -50%)'
+}
+@media screen and (max-width: 480px) {
+    .container_board {
+        width: 100vw;
+        height:100vh;  
+        align-items: center;
+    }
+}
