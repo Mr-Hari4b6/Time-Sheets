@@ -38,3 +38,8 @@ export type LoggedInUser = {
     username:string,
     password:string
 }
+
+export type ForgotPassword = {
+    newPassword:string,
+    confirmPassword:string
+}
